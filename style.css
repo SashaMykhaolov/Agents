@@ -551,5 +551,20 @@ body {
   line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.LearnMore {
+  width: 148px;
+  height: 56px;
+  top: 2761px;
+  left: 267px;
+  border-radius: 5px;
+  border-width: 1px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
 
 }
