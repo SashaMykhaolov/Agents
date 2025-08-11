@@ -515,6 +515,20 @@ body {
 
 }
 
+.exp {
+  width: 96px;
+  height: 30px;
+  top: 2539px;
+  left: 319px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+
+}
+
 .dog {
   display: flex;
   width: 479px;
