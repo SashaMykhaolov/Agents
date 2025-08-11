@@ -322,7 +322,7 @@ body {
     width: 466px;
     height: 494px;
     background: #9ed433;
-    margin: 130px 85px 151px 134px;
+    margin: 130px 85px 0px 134px;
   }
 
   .agents {
@@ -404,6 +404,7 @@ body {
   }
 
   .dog {
+    display: flex;
     width: 479px;
     height: 491px;
     top: 2326px;
@@ -417,7 +418,7 @@ body {
     height: 54px;
     top: 1723px;
     left: 685px;
-    border-radius: 5px;
+    border-radius: 5px; 
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
