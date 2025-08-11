@@ -512,7 +512,7 @@ body {
   line-height: 16.5px;
   letter-spacing: 2px;
   text-transform: uppercase;
-
+  color: #636769;
 }
 
 .exp {
@@ -526,7 +526,7 @@ body {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0%;
-
+  color: #636769;
 }
 
 .dog {
@@ -536,5 +536,20 @@ body {
   top: 2326px;
   left: 600px;
   border-radius: 20px;
+
+}
+
+.third-nd {
+  width: 425px;
+  height: 60px;
+  top: 2673px;
+  left: 128px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
 
 }
