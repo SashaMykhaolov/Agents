@@ -202,14 +202,21 @@ setInterval(() => {
     h.style.transform = `rotate(${hs * 30 + min * 0.5}deg)`
 }, 1000)
 
-document.addEventListener("DOMContentLoaded", () => {
+// Example for dynamic content loading
+function loadDynamicContent() {
+    const preloader = document.getElementById('preloader');
+    const content = document.getElementById('content');
 
-    let loader = document.querySelector(".wave-menu");
-    let container = document.querySelector(".conteiner");
+    preloader.style.display = 'flex'; // Show loader during content fetching
 
+    // Simulate an API call
     setTimeout(() => {
-        loader.style.opacity = "0";
-        container.style.opacity = "1";
+        // ... process and display your fetched content ...
+        content.innerHTML = '<h2>Dynamic Content Loaded!</h2><p>Here is some new content.</p>';
+        preloader.style.display = 'none'; // Hide loader after content is ready
+        content.style.display = 'block';
+    }, 2000); // Simulate 2-second loading time
+}
 
-    }, 100);
-});
+// Call this function when you need to load dynamic content
+// loadDynamicContent();
