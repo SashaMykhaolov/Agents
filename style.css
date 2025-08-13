@@ -320,6 +320,11 @@ body {
   background: teal;
 }
 
+.secondclass{
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   font-family: Roboto;
   height: 60px;
