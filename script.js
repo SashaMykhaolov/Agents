@@ -1,97 +1,140 @@
 console.clear()
 
+
+
+document.addEventListener("DOMContentLoader",() => {
+
+
+    window.addEventListener("load", () => {
+
+    let pl = document.querySelector('.pl');
+    let container = document.querySelector('.container');
+
+    pl.style.display = 'none';
+
+    container.style.display = 'block'
+
+    setTimeout(() => {
+        pl.style.opacity = '1';
+        content.style.opacity = "0";
+    }, 2000);
+  })
+})  
+
+
+
+const s = document.querySelector(".sec")
+const m = document.querySelector(".min")
+const h = document.querySelector(".hour")
+
+setInterval(() => {
+    const now = new Date()
+    const sec = now.getSeconds()
+    const min = now.getMinutes()
+    const hs = now.getHours()
+
+    s.style.transform = 'rotate(${sec * 6}deg)'
+    m.style.transform = 'rotate(${min * 6 + sec * 0.1}deg)'
+    h.style.transform = 'rotate(${hs * 30 + min * 0.5}deg)'
+}, 1000)
+
+
+
 function changeLanguageUa() {
-    let uaTexts = [
-        "Агенти",
-        "Покупцям",
-        "Ресурси",
-        "Увійти",
-        "Зареєструйтесь",
-        "Впевненість на шляху до власного житла.",
-        "Гарантуємо завершення угоди з готівкою без умов для всіх сторін.",
-        "Зареєструйтесь",
-        "Детальніше",
-        "У ЗМІ",
-        "Кого ми підтримуємо",
-        "Агенти покупців",
-        "Покупці",
-        "Агенти продавців",
-        "Продавці",
-        "Кредитори",
-        "Агенти покупців",
-        "Готівка для ваших клієнтів",
-        "Без умов — найсильніша пропозиція на ринку.",
-        "Сертифікуйтесь",
-        "Комісія залишається вам",
-        "Більше перемог",
-        "Гарантія завершення",
-        "Нам довіряють",
-        "«Ribbon — ваша перевага для перемоги клієнта.»",
-        "Едґар Гонсалес",
-        "eXp Realty",
-        "Ribbon не забирає вашу комісію, а допомагає.",
-        "Більше",
-        "$5 млрд+",
-        "Будинків куплено",
-        "Агенти",
-        "Платоспроможність",
-        "Наші рішення",
-        "Пропозиція за готівку",
-        "Купівля до продажу",
-        "Порятунок угоди",
-        "Орландо, Флорида",
-        "будинок з Ribbon",
-        "Покупець",
-        "Продавець",
-        "виграла будинок мрії у конкуренції.",
-        "отримав завершення без умов.",
-        "Пропозиція за готівку",
-        "Після схвалення — оновіть пропозицію до готівки.",
-        "Більше",
-        "Прочитати успішну історія",
-        "Все під рукою",
-        "Ribbon — пропозиції з телефона будь-коли.",
-        "Агенти",
-        "Купівля",
-        "Продаж",
-        "Додаток iOS",
-        "Сертифікація",
-        "Житла",
-        "Покупці",
-        "Купити до продажу",
-        "Новобудови",
-        "Порятунок угоди",
-        "Продавцям",
-        "Партнери",
-        "Кредитори",
-        "Будівельники",
-        "Агентства",
-        "Ресурси",
-        "Ціни",
-        "ЧаПи",
-        "Як діє",
-        "Блог",
-        "Посібники",
-        "Вебінари",
-        "Про нас",
-        "Місія",
-        "Культура",
-        "Кар’єра",
-        "Преса",
-        "Залишити відгук",
-        "Умови",
-        "Конфіденційність",
-        "© 2022 Ribbon Home. Всі права захищено."
-    ];
 
     let targets = document.querySelectorAll(".target");
     console.log(targets)
-    for (let i = 0; i < targets.length && i < uaTexts.length; i++) {
-        targets[i].textContent = uaTexts[i];
-    }
+    for (let i = 0; i < targets.length && i < [
+    ].length; i++) {
+        targets[i].textContent = [
+            " Агенти",
+            "Покупцям",
+            "Ресурси",
+            "Увійти",
+            "Зареєструйтесь",
+            "Впевненість на шляху до власного житла.",
+            "Гарантуємо завершення угоди з готівкою без умов для всіх сторін.",
+            "Зареєструйтесь",
+            "Детальніше",
+            "У ЗМІ",
+            "Кого ми підтримуємо",
+            "Агенти покупців",
+            "Покупці",
+            "Агенти продавців",
+            "Продавці",
+            "Кредитори",
+            "Агенти покупців",
+            "Готівка для ваших клієнтів",
+            "Без умов — найсильніша пропозиція на ринку.",
+            "Сертифікуйтесь",
+            "Комісія залишається вам",
+            "Більше перемог",
+            "Гарантія завершення",
+            "Нам довіряють",
+            "«Ribbon — ваша перевага для перемоги клієнта.»",
+            "Едґар Гонсалес",
+            "eXp Realty",
+            "Ribbon не забирає вашу комісію, а допомагає.",
+            "Більше",
+            "$5 млрд+",
+            "Будинків куплено",
+            "Агенти",
+            "Платоспроможність",
+            "Наші рішення",
+            "Пропозиція за готівку",
+            "Купівля до продажу",
+            "Порятунок угоди",
+            "Орландо, Флорида",
+            "будинок з Ribbon",
+            "Покупець",
+            "Продавець",
+            "виграла будинок мрії у конкуренції.",
+            "отримав завершення без умов.",
+            "Пропозиція за готівку",
+            "Після схвалення — оновіть пропозицію до готівки.",
+            "Більше",
+            "Прочитати успішну історія",
+            "Все під рукою",
+            "Ribbon — пропозиції з телефона будь-коли.",
+            "Агенти",
+            "Купівля",
+            "Продаж",
+            "Додаток iOS",
+            "Сертифікація",
+            "Житла",
+            "Покупці",
+            "Купити до продажу",
+            "Новобудови",
+            "Порятунок угоди",
+            "Продавцям",
+            "Партнери",
+            "Кредитори",
+            "Будівельники",
+            "Агентства",
+            "Ресурси",
+            "Ціни",
+            "ЧаПи",
+            "Як діє",
+            "Блог",
+            "Посібники",
+            "Вебінари",
+            "Про нас",
+            "Місія",
+            "Культура",
+            "Кар’єра",
+            "Преса",
+            "Залишити відгук",
+            "Умови",
+            "Конфіденційність",
+            "© 2022 Ribbon Home. Всі права захищено."
+        ][i];
+    } 
 }
+
+
+
 function changeLanguageEng() {
-    let engTexts = [
+    let engtexts = [
         "Agents",
         "Homebuyers",
         "Resources",
@@ -173,8 +216,8 @@ function changeLanguageEng() {
     ];
     let targets = document.querySelectorAll(".target");
     console.log(targets)
-    for (let i = 0; i < targets.length && i < engTexts.length; i++) {
-        targets[i].textContent = engTexts[i];
+    for (let i = 0; i < targets.length && i < engtexts.length; i++) {
+        targets[i].textContent = engtexts[i];
     }
 }
 
@@ -186,37 +229,3 @@ function changeLanguageEng() {
 
 
 
-
-const s = document.querySelector(".sec")
-const m = document.querySelector(".min")
-const h = document.querySelector(".hour")
-
-setInterval(() => {
-    const now = new Date()
-    const sec = now.getSeconds()
-    const min = now.getMinutes()
-    const hs = now.getHours()
-
-    s.style.transform = `rotate(${sec * 6}deg)`
-    m.style.transform = `rotate(${min * 6 + sec * 0.1}deg)`
-    h.style.transform = `rotate(${hs * 30 + min * 0.5}deg)`
-}, 1000)
-
-// Example for dynamic content loading
-function loadDynamicContent() {
-    const preloader = document.getElementById('preloader');
-    const content = document.getElementById('content');
-
-    preloader.style.display = 'flex'; // Show loader during content fetching
-
-    // Simulate an API call
-    setTimeout(() => {
-        // ... process and display your fetched content ...
-        content.innerHTML = '<h2>Dynamic Content Loaded!</h2><p>Here is some new content.</p>';
-        preloader.style.display = 'none'; // Hide loader after content is ready
-        content.style.display = 'block';
-    }, 2000); // Simulate 2-second loading time
-}
-
-// Call this function when you need to load dynamic content
-// loadDynamicContent();
