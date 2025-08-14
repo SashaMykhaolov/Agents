@@ -2,24 +2,7 @@ console.clear()
 
 
 
-document.addEventListener("DOMContentLoader",() => {
 
-
-    window.addEventListener("load", () => {
-
-    let pl = document.querySelector('.pl');
-    let container = document.querySelector('.container');
-
-    pl.style.display = 'none';
-
-    container.style.display = 'block'
-
-    setTimeout(() => {
-        pl.style.opacity = '1';
-        content.style.opacity = "0";
-    }, 2000);
-  })
-})  
 
 
 
@@ -33,9 +16,9 @@ setInterval(() => {
     const min = now.getMinutes()
     const hs = now.getHours()
 
-    s.style.transform = 'rotate(${sec * 6}deg)'
-    m.style.transform = 'rotate(${min * 6 + sec * 0.1}deg)'
-    h.style.transform = 'rotate(${hs * 30 + min * 0.5}deg)'
+    s.style.transform = `rotate(${sec * 6}deg)`
+    m.style.transform = `rotate(${min * 6 + sec * 0.1}deg)`
+    h.style.transform = `rotate(${hs * 30 + min * 0.5}deg)`
 }, 1000)
 
 
