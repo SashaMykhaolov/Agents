@@ -16,8 +16,10 @@ html {
 }
 
 body {
-  position: relative;
+  position: absolute;  
+  left: 300px;
   height: 100vh;
+  background: whitez`;
 }
 
 /* From Uiverse.io by Nawsome */
@@ -25,6 +27,7 @@ body {
 
 
 .container {
+  position: absolute;
   opacity: 1;
   width: 1200px;
   height: 6000px;
@@ -97,7 +100,6 @@ body {
 .main {
   position: relative;
   height: 1200px;
-  background: rgb(24, 59, 255);
 
 }
 
@@ -161,7 +163,6 @@ body {
   justify-content: center;
   position: absolute;
   font-size: 18px;
-  color: #ff0000;
   text-shadow: 1px 1px 3px #ccc;
   height: 150px;
   width: 150px;
@@ -270,7 +271,6 @@ body {
   position: absolute;
   height: 7.5px;
   width: 7.5px;
-  background: #000000;
   border-radius: 50%;
 }
 
@@ -305,7 +305,6 @@ body {
   font-size: 20px;
   line-height: 34px;
   letter-spacing: 0.05px;
-  background: darkcyan;
 }
 
 .main-buttons {
@@ -336,6 +335,8 @@ body {
   font-family: Roboto;
   font-weight: 400;
   font-style: Regular;
+  width: 158px;
+  height: 54px;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -398,7 +399,7 @@ body {
   justify-content: center;
   height: 116px;
   width: 582px;
-  background: #000;
+
 }
 
 .tech {
@@ -406,33 +407,28 @@ body {
   top: 610px;
 }
 
-.all{
+.all {
   position: absolute;
   left: 130px;
 }
 
-.wsj{
+.wsj {
   position: absolute;
   left: 230px;
 }
 
-.usa{
+.usa {
   position: absolute;
   left: 330px;
 }
 
-.in-man{
+.in-man {
   position: absolute;
   left: 440px;
 }
 
 .second-page {
-  height: 2227px;
   background: #f5f4f2;
-}
-
-.who-we-empower {
-  height: 300px;
 }
 
 .second-title {
@@ -532,7 +528,7 @@ body {
   color: #363B3D;
 }
 
-.buyer-txt {
+.buyer-text {
   position: absolute;
   width: 381px;
   height: 120px;
@@ -606,7 +602,7 @@ body {
   left: 893px;
 }
 
-.icon-txt {
+.icon-text {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
@@ -616,7 +612,7 @@ body {
   text-transform: uppercase;
 }
 
-.icon-txt1 {
+.icon-text1 {
   position: absolute;
   width: 209;
   height: 19;
@@ -625,7 +621,7 @@ body {
 
 }
 
-.icon-txt2 {
+.icon-text2 {
   position: absolute;
   width: 190;
   height: 38;
@@ -633,7 +629,7 @@ body {
   left: 445px;
 }
 
-.icon-txt3 {
+.icon-text3 {
   position: absolute;
   width: 202;
   height: 19;
@@ -664,7 +660,7 @@ body {
   color: #323A5B;
 }
 
-.good-txt {
+.good-text {
   position: absolute;
   width: 436px;
   height: 168px;
@@ -1076,7 +1072,7 @@ body {
   color: #2B2B2B;
 }
 
-.turn-txt {
+.turn-text {
   position: absolute;
   width: 285px;
   height: 90px;
@@ -1145,4 +1141,262 @@ body {
 .dot3 {
   left: 560px;
   background: none;
+}
+
+.with-phone {
+  position: absolute;
+  width: 1200px;
+  height: 552px;
+  top: 4247px;
+  background: #F5F4F2;
+}
+
+.phone-title {
+  position: absolute;
+  width: 405px;
+  height: 96px;
+  top: 118px;
+  left: 133px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #363B3D;
+}
+
+.phone-text {
+  position: absolute;
+  width: 391px;
+  height: 60px;
+  top: 249px;
+  left: 140px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #363B3D;
+}
+
+.appstore {
+  position: absolute;
+  width: 234px;
+  height: 64px;
+  top: 354px;
+  left: 218px;
+  border-radius: 7px;
+  background: #000;
+}
+
+.app-store {
+  position: absolute;
+  top: 363px;
+  left: 262px;
+}
+
+.phone {
+  position: absolute;
+  top: 83px;
+  left: 628px;
+}
+
+.footer {
+  position: absolute;
+  top: 4799px;
+  background: #050302;
+  height: 633px;
+  width: 1200px;
+}
+
+.ribbon {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.link-title {
+  position: absolute;
+
+  top: 59px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.agents-title {
+  left: 246px;
+  width: 62px;
+}
+
+.link-div {
+  position: absolute;
+  display: flex;
+  top: 91px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.homebuyers-title {
+  left: 449px;
+  width: 101px;
+}
+
+.homebuyers {
+  left: 449px;
+  height: 190px;
+  width: 165px;
+}
+
+.partners-title {
+  left: 642px;
+  width: 76px;
+}
+
+.partners {
+  left: 642px;
+  height: 90px;
+  width: 76px;
+}
+
+.resources-title {
+  left: 794px;
+  width: 89px;
+}
+
+.resources {
+  left: 794px;
+  height: 230px;
+  width: 106px;
+}
+
+.link {
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.homebuyers-title {
+  left: 449px;
+  width: 101px;
+}
+
+.homebuyers {
+  left: 449px;
+  height: 190px;
+  width: 165px;
+}
+
+.partners-title {
+  left: 642px;
+  width: 76px;
+}
+
+.partners {
+  left: 642px;
+  height: 90px;
+  width: 76px;
+}
+
+.resources-title {
+  left: 794px;
+  width: 89px;
+}
+
+.resources {
+  left: 794px;
+  height: 230px;
+  width: 106px;
+}
+
+.about-title {
+  left: 967px;
+  width: 53px;
+}
+
+.about {
+  left: 967px;
+  height: 150px;
+  width: 65px;
+}
+
+.bbb {
+  position: absolute;
+  top: 452px;
+  left: 60px;
+}
+
+.review {
+  position: absolute;
+  top: 522px;
+  left: 60px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-links {
+  position: absolute;
+  top: 453px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.terms {
+  left: 433px;
+}
+
+.privacy {
+  left: 494px;
+}
+
+.copyright {
+  position: absolute;
+  top: 483px;
+  left: 433px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.soccial {
+  position: absolute;
+  top: 459px;
+}
+
+.facebook {
+  left: 1029px;
+}
+
+.inst {
+  left: 1103px;
 }
